@@ -18,10 +18,10 @@ Download or clone this repository, then open a terminal in its `from-basics-to-a
 
 ## Lessons
 
-1. [Hello, world!](01-basics/01-hello-world/README.md) — run a program and print text.
+1. [Plan your study time](01-basics/01-study-planner/README.md) — use variables and arithmetic to calculate a weekly study schedule.
 
 ## What comes next
 
-Variables and basic types → strings and numbers → conditions → loops → collections → functions → files and errors → modules → testing → classes → advanced Python.
+User input and number conversion → more strings and numbers → conditions → loops → collections → functions → files and errors → modules → testing → classes → advanced Python.
 
 Later, we will use these skills with data and AI. The first lessons use Python alone and need no extra packages or accounts.

@@ -6,7 +6,7 @@ Built for anyone learning step by step. No programming experience is needed to b
 
 ## Start here
 
-Start with [Python](programming/python/README.md), then try [your first program](programming/python/01-basics/01-hello-world/README.md).
+Start with [Python](programming/python/README.md), then try [a practical study planner](programming/python/01-basics/01-study-planner/README.md).
 
 Each lesson introduces one idea, shows a working example, and gives you a small exercise. Run the code, change something, and explain what you learned in your own words.
 
