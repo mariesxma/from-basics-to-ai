@@ -1,27 +1,32 @@
-# Python
+# Python adventure path
 
-Start with small programs and build toward the Python skills used in data work and AI.
+Learn Python through complete games, starting with a small terminal adventure and building toward AI. Each level combines concepts within one project.
 
 ## Before you start
 
-You need Python 3 and a text editor. If Python is not installed, use the instructions for your operating system at [python.org](https://www.python.org/downloads/).
-
-Open a terminal and check:
+Install Python 3 from [python.org](https://www.python.org/downloads/) and choose a text editor. Check your installation in a terminal:
 
 ```bash
 python3 --version
 ```
 
-On Windows, try `py --version`. In the lessons, replace `python3` with `py` if that is the command your installation uses.
+On Windows, try `py --version` and replace `python3` with `py` in the commands below if needed.
 
-Download or clone this repository, then open a terminal in its `from-basics-to-ai` folder. All run commands below assume you are in that folder.
+Download or clone this repository and open a terminal in its `from-basics-to-ai` folder. The run commands assume that location.
 
-## Lessons
+## Choose your level
 
-1. [Plan your study time](01-basics/01-study-planner/README.md) — use variables and arithmetic to calculate a weekly study schedule.
+| Level | Complete project | Concepts combined | Status |
+| --- | --- | --- | --- |
+| [1 — Foundations](level-01-foundations/README.md) | Treasure Hunt: explore rooms, collect treasure, manage health, win or lose, and replay | Variables, strings, lists, dictionaries, conditions, loops, functions, user input | Playable |
+| [2 — Intermediate](level-02-intermediate/README.md) | Dungeon Explorer: fight enemies, manage inventory, save and resume | Modules, files, error handling, complex state | Planned |
+| [3 — Advanced](level-03-advanced/README.md) | Strategy Arena: battle computer opponents with different strategies | Classes, algorithms, testing | Planned |
+| [4 — AI](level-04-ai/README.md) | Learning Agent: train an agent to navigate a small world | Probability, rewards, reinforcement learning, evaluation | Planned |
 
-## What comes next
+## Play your first project
 
-User input and number conversion → more strings and numbers → conditions → loops → collections → functions → files and errors → modules → testing → classes → advanced Python.
+```bash
+python3 programming/python/level-01-foundations/treasure-hunt/game.py
+```
 
-Later, we will use these skills with data and AI. The first lessons use Python alone and need no extra packages or accounts.
+[Treasure Hunt instructions](level-01-foundations/treasure-hunt/README.md) explain the rules and how to build the game. It uses Python alone, with no extra packages or accounts.

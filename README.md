@@ -1,31 +1,40 @@
 # From Basics to AI
 
-An open learning resource covering Python, mathematics, algorithms, computer science, and AI—from the basics onward, with clear notes, practical examples, and hands-on projects.
+An open learning resource covering Python, mathematics, algorithms, computer science, and AI through complete projects, guided builds, and optional challenges.
 
-Built for anyone learning step by step. No programming experience is needed to begin.
+## Learn by playing and building
 
-## Start here
+Each level brings several concepts together in one complete project. Start by running it, explore how it works, then take on quests to make it your own. Foundation projects have a smaller scope and fully working features.
 
-Start with [Python](programming/python/README.md), then try [a practical study planner](programming/python/01-basics/01-study-planner/README.md).
+Start with [Python setup](programming/python/README.md), then play [Treasure Hunt](programming/python/level-01-foundations/treasure-hunt/README.md). No previous programming experience is required.
 
-Each lesson introduces one idea, shows a working example, and gives you a small exercise. Run the code, change something, and explain what you learned in your own words.
+## Python adventure path
 
-## Learning roadmap
+| Level | Complete project | Concepts combined | Status |
+| --- | --- | --- | --- |
+| [1 — Foundations](programming/python/level-01-foundations/README.md) | Treasure Hunt: explore rooms, collect treasure, manage health, win or lose, and replay | Variables, strings, lists, dictionaries, conditions, loops, functions, user input | Playable |
+| [2 — Intermediate](programming/python/level-02-intermediate/README.md) | Dungeon Explorer: fight enemies, manage inventory, save and resume | Modules, files, error handling, complex state | Planned |
+| [3 — Advanced](programming/python/level-03-advanced/README.md) | Strategy Arena: battle computer opponents with different strategies | Classes, algorithms, testing | Planned |
+| [4 — AI](programming/python/level-04-ai/README.md) | Learning Agent: train an agent to navigate a small world | Probability, rewards, reinforcement learning, evaluation | Planned |
 
-| Area | What belongs here | Status |
-| --- | --- | --- |
-| [Programming](programming/README.md) | Python first; other languages as the resource grows | First Python lesson available |
-| Mathematics | Algebra, probability, statistics, and linear algebra | Planned |
-| Algorithms | Problem solving, searching, sorting, and efficiency | Planned |
-| Computer science | Data representation, systems, networking, and databases | Planned |
-| AI | Data preparation, machine learning, neural networks, and AI applications | Planned |
-| Projects | Small projects that connect the topics | Planned |
+Levels 2–4 are a roadmap; their games are not implemented yet. Each future level will deliver its own runnable project.
 
-These are learning areas, not prerequisites you must finish in order. We will add lessons gradually and connect related topics as they become useful.
+## Room to grow
+
+[Programming](programming/README.md) begins with Python. Other languages can have their own paths alongside it. Dedicated mathematics, algorithms, computer science, and AI sections are planned as the resource grows.
+
+## How to complete a level
+
+1. Run the project and explore its behavior.
+2. Follow the guided build to understand how the pieces work together.
+3. Complete the core checklist and explain the code in your own words.
+4. Try optional quests, then move on when you feel ready.
+
+Progress is self-assessed; no account or automated unlocking is required.
 
 ## Contributing
 
-Corrections, clearer explanations, and beginner-friendly examples are welcome. Open an issue to suggest a topic, or a pull request with a focused improvement. For a new lesson, include an explanation, runnable code, expected output, and an exercise. Only contribute material you have permission to share.
+Corrections, clearer explanations, and project improvements are welcome. Open an issue or a focused pull request. Each new project should include run instructions, a guided build, optional quests, and a completion checklist. Only contribute material you have permission to share.
 
 ## License
 
