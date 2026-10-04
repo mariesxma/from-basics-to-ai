@@ -1,40 +1,51 @@
 # From Basics to AI
 
-An open learning resource covering Python, mathematics, algorithms, computer science, and AI through complete projects, guided builds, and optional challenges.
+An open learning resource covering programming, algorithms, mathematics, system design, and AI through complete projects and clear explanations.
 
-## Learn by playing and building
+## Start here
 
-Each level brings several concepts together in one complete project. Start by running it, explore how it works, then take on quests to make it your own. Foundation projects have a smaller scope and fully working features.
+Choose a **project → language → level**. Each implemented level is a complete, independently runnable project with a guided build, optional quests, and a completion checklist.
 
-Start with [Python setup](programming/python/README.md), then play [Treasure Hunt](programming/python/level-01-foundations/treasure-hunt/README.md). No previous programming experience is required.
+Start with [Treasure Hunt in Python](programming-projects/treasure-hunt/python/README.md). No previous programming experience is required.
 
-## Python adventure path
+## Explore the repository
 
-| Level | Complete project | Concepts combined | Status |
-| --- | --- | --- | --- |
-| [1 — Foundations](programming/python/level-01-foundations/README.md) | Treasure Hunt: explore rooms, collect treasure, manage health, win or lose, and replay | Variables, strings, lists, dictionaries, conditions, loops, functions, user input | Playable |
-| [2 — Intermediate](programming/python/level-02-intermediate/README.md) | Dungeon Explorer: fight enemies, manage inventory, save and resume | Modules, files, error handling, complex state | Planned |
-| [3 — Advanced](programming/python/level-03-advanced/README.md) | Strategy Arena: battle computer opponents with different strategies | Classes, algorithms, testing | Planned |
-| [4 — AI](programming/python/level-04-ai/README.md) | Learning Agent: train an agent to navigate a small world | Probability, rewards, reinforcement learning, evaluation | Planned |
+| Section | What you will find | Status |
+| --- | --- | --- |
+| [Programming projects](programming-projects/README.md) | Complete projects grouped by name, language, and level | Treasure Hunt foundations available |
+| [Algorithms](algorithms/README.md) | Searching, sorting, graphs, and problem solving | Planned |
+| [Mathematics](mathematics/README.md) | Algebra, probability, statistics, and linear algebra | Planned |
+| [System design](system-design/README.md) | How components, APIs, storage, and services fit together | Planned |
+| [AI](ai/README.md) | Machine learning, agents, and evaluation | Planned |
 
-Levels 2–4 are a roadmap; their games are not implemented yet. Each future level will deliver its own runnable project.
+## Project roadmap
 
-## Room to grow
+| Project | Language or platform | Level | Complete version | Status |
+| --- | --- | --- | --- | --- |
+| [Treasure Hunt](programming-projects/treasure-hunt/python/01-foundations/README.md) | Python | Foundations | Terminal game: movement, treasure, health, win/loss, and replay | Playable |
+| Treasure Hunt | Python | Intermediate | Inventory, save/load, modules, and tests | Planned |
+| Treasure Hunt | Python | Advanced | Graphical game with an extensible design | Planned |
+| Treasure Hunt | Java | Foundations | A standalone Java version of the terminal game | Planned |
+| Treasure Hunt | Web | Foundations | A complete browser game | Planned |
+| Virtual Pet | Python | Foundations | Feed a pet and manage its energy and state | Planned |
 
-[Programming](programming/README.md) begins with Python. Other languages can have their own paths alongside it. Dedicated mathematics, algorithms, computer science, and AI sections are planned as the resource grows.
+Only implemented versions have project folders. Planned versions will be added gradually.
 
-## How to complete a level
+## Choose how to learn
 
-1. Run the project and explore its behavior.
-2. Follow the guided build to understand how the pieces work together.
-3. Complete the core checklist and explain the code in your own words.
-4. Try optional quests, then move on when you feel ready.
+- **Go deeper:** continue with the same project at the next level.
+- **Practise more:** try a different project at the same level.
+- **Compare languages:** build the same project in another language.
 
-Progress is self-assessed; no account or automated unlocking is required.
+Related topic explanations will link to projects as they grow. AI projects can build on these skills without requiring every language or interface first.
+
+## Run one project at a time
+
+Each version has its own instructions and dependencies. You do not need to install or run the whole repository. Installed packages, build output, large datasets, and AI model weights stay outside Git.
 
 ## Contributing
 
-Corrections, clearer explanations, and project improvements are welcome. Open an issue or a focused pull request. Each new project should include run instructions, a guided build, optional quests, and a completion checklist. Only contribute material you have permission to share.
+Corrections, clearer explanations, and project improvements are welcome. Open an issue or a focused pull request. Each new version should include run instructions, a guided build, optional quests, and a completion checklist. Only contribute material you have permission to share.
 
 ## License
 

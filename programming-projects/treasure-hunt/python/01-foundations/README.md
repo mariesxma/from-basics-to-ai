@@ -6,10 +6,10 @@ Explore four rooms, collect three treasures, and return to camp before your heal
 
 ## Play
 
-Follow the [Python setup](../../README.md), then run this from the repository root:
+Follow the [Python setup](../README.md), then run this from the repository root:
 
 ```bash
-python3 programming/python/level-01-foundations/treasure-hunt/game.py
+python3 programming-projects/treasure-hunt/python/01-foundations/game.py
 ```
 
 On Windows, use `py` instead of `python3` if needed. Type a command and press Enter.
@@ -91,4 +91,4 @@ Complete the core game first. Each quest is a small extension to the same workin
 
 Finishing this checklist completes Level 1. Quests are optional; there is no automatic score or unlock system.
 
-[Back to the level path](../../README.md)
+[Back to the level path](../README.md)
