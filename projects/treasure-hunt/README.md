@@ -5,8 +5,9 @@ Explore rooms, collect treasure, survive hazards, and return to camp. Use this f
 | Language or platform | Level | Version | Status |
 | --- | --- | --- | --- |
 | [Python](python/README.md) | [Foundations](python/01-foundations/README.md) | Complete terminal game with movement, health, treasure, and replay | Playable |
-| Python | Intermediate | Inventory, save/load, modules, and tests | Planned |
-| Python | Advanced | Graphical interface and extensible game design | Planned |
+| Python | [02 — Functions and validation](python/02-functions-and-validation/README.md) | Difficulty menu and reusable rules | Playable |
+| Python | [03 — Collections and progress](python/03-collections-and-progress/README.md) | Inventory, route history and bonus rewards | Playable |
+| Python | 04–06 | Classes, saving, then graphical interface | Planned |
 | Java | Foundations | Standalone terminal game | Planned |
 | Web | Foundations | Browser game using HTML, CSS, and JavaScript | Planned |
 

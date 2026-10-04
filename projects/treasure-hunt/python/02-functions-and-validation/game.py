@@ -11,12 +11,41 @@ def create_rooms():
     }
 
 
+def choose_health():
+    """Convert menu input to a number and return the chosen starting health."""
+    names = ("Explorer", "Adventurer", "Survivor")
+    health_options = (10, 7, 5)
+    for index in range(len(names)):
+        print(f"{index + 1}. {names[index]}: {health_options[index]} health")
+    while True:
+        try:
+            choice = int(input("Choose difficulty (1-3): "))
+        except ValueError:
+            print("Please enter a whole number.")
+            continue
+        if 1 <= choice <= len(names):
+            return health_options[choice - 1]
+        print("Choose 1, 2, or 3.")
+
+
+def apply_damage(health, damage):
+    """Return remaining health, never below zero."""
+    return max(0, health - damage)
+
+
+def find_treasure(room, location):
+    """Return a treasure label, or None when this room has no treasure."""
+    if room["treasure"]:
+        return location
+    return None
+
+
 def play_game():
     rooms = create_rooms()
     location = "camp"
-    health = 7
     treasures = []
     print("\nTREASURE HUNT")
+    health = choose_health()
     print("Collect all 3 treasures and return to camp alive.")
     print("Hazards hurt every time you enter a room. Plan your route!")
     print("Commands: north, south, east, west, take, status, help, quit")
@@ -38,8 +67,9 @@ def play_game():
         elif command == "status":
             print("Treasure collected from:", ", ".join(treasures) or "nowhere yet")
         elif command == "take":
-            if room["treasure"]:
-                treasures.append(location)
+            treasure = find_treasure(room, location)
+            if treasure is not None:
+                treasures.append(treasure)
                 room["treasure"] = False
                 print("Treasure collected!")
             else:
@@ -47,7 +77,7 @@ def play_game():
         elif command in room["exits"]:
             location = room["exits"][command]
             damage = rooms[location]["damage"]
-            health = health - damage
+            health = apply_damage(health, damage)
             if damage > 0:
                 print("A hazard costs you", damage, "health.")
             if health <= 0:

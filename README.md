@@ -12,7 +12,7 @@ Start with [Treasure Hunt in Python](projects/treasure-hunt/python/README.md). N
 
 | Section | What you will find | Status |
 | --- | --- | --- |
-| [Projects](projects/README.md) | Complete runnable projects, including AI, grouped by name, language, and level | Treasure Hunt foundations available |
+| [Projects](projects/README.md) | Complete runnable projects, including AI, grouped by name, language, and level | Three Treasure Hunt Python stages available |
 | [Algorithms](algorithms/README.md) | Searching, sorting, graphs, and problem solving | Planned |
 | [Mathematics](mathematics/README.md) | Algebra, probability, statistics, and linear algebra | Planned |
 | [System design](system-design/README.md) | How components, APIs, storage, and services fit together | Planned |
@@ -23,8 +23,9 @@ Start with [Treasure Hunt in Python](projects/treasure-hunt/python/README.md). N
 | Project | Language or platform | Level | Complete version | Status |
 | --- | --- | --- | --- | --- |
 | [Treasure Hunt](projects/treasure-hunt/python/01-foundations/README.md) | Python | Foundations | Terminal game: movement, treasure, health, win/loss, and replay | Playable |
-| Treasure Hunt | Python | Intermediate | Inventory, save/load, modules, and tests | Planned |
-| Treasure Hunt | Python | Advanced | Graphical game with an extensible design | Planned |
+| [Treasure Hunt](projects/treasure-hunt/python/02-functions-and-validation/README.md) | Python | 02 — Functions and validation | Difficulty menu and reusable rules | Playable |
+| [Treasure Hunt](projects/treasure-hunt/python/03-collections-and-progress/README.md) | Python | 03 — Collections and progress | Inventory, route history and bonus rewards | Playable |
+| Treasure Hunt | Python | 04–06 | Classes, saving, then graphical interface | Planned |
 | Treasure Hunt | Java | Foundations | A standalone Java version of the terminal game | Planned |
 | Treasure Hunt | Web | Foundations | A complete browser game | Planned |
 | Virtual Pet | Python | Foundations | Feed a pet and manage its energy and state | Planned |

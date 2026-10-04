@@ -1,4 +1,4 @@
-"""Maintainer checks. Run: python3 -m unittest discover -s projects/treasure-hunt/python/01-foundations -p 'test_*.py'"""
+"""Maintainer checks. Run: python3 -m unittest discover -s projects/treasure-hunt/python/03-collections-and-progress -p 'test_*.py'"""
 import contextlib
 import importlib.util
 import io
