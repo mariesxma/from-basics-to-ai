@@ -4,6 +4,12 @@
 
 Explore four rooms, collect three treasures, and return to camp before your health runs out. The game includes movement, collection, hazards, win and loss conditions, help, input validation, quitting, and replay.
 
+## Learning stages · 学习阶段
+
+See the [foundations learning map](LEARNING-MAP.md) for the five build stages, Python concepts, understanding checks, and topics still to practise. This game covers a first set of foundations, not every Python fundamental.
+
+查看基础学习地图：每阶段学什么、在哪里用到、怎么验收，以及还需要补哪些基础。
+
 ## Play
 
 Follow the [Python setup](../README.md), then run this from the repository root:
@@ -89,6 +95,6 @@ Complete the core game first. Each quest is a small extension to the same workin
 - [ ] Explain where the loop continues and where the game ends.
 - [ ] Change one game rule and verify its effect.
 
-Finishing this checklist completes Level 1. Quests are optional; there is no automatic score or unlock system.
+Finishing this checklist completes this foundations project; it does not cover every Python fundamental. Quests are optional; there is no automatic score or unlock system.
 
 [Back to the level path](../README.md)

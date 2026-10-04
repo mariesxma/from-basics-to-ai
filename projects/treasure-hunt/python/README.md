@@ -35,3 +35,7 @@ python3 game.py
 This version needs no extra packages or accounts. Follow the [project guide](01-foundations/README.md) to play, understand the code, and complete quests.
 
 [Other Treasure Hunt versions](../README.md)
+
+## What does foundations cover?
+
+The [learning map](01-foundations/LEARNING-MAP.md) lists the stages, concepts used in the game, and foundations still to practise.
