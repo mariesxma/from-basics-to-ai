@@ -23,10 +23,10 @@ On Windows, try `py --version` and replace `python3` with `py` in the commands b
 From the repository root:
 
 ```bash
-python3 programming-projects/treasure-hunt/python/01-foundations/game.py
+python3 projects/treasure-hunt/python/01-foundations/game.py
 ```
 
-Or open `programming-projects/treasure-hunt/python/01-foundations/` in your editor and run this from that folder:
+Or open `projects/treasure-hunt/python/01-foundations/` in your editor and run this from that folder:
 
 ```bash
 python3 game.py

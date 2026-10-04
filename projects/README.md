@@ -1,6 +1,6 @@
-# Programming projects
+# Projects
 
-Choose a project, then a language and level. Each implemented version runs independently.
+All runnable projects belong here, including AI applications and AI-powered versions of existing projects. Choose a project, then a language and level. Each implemented version runs independently.
 
 | Project | Available now | Planned |
 | --- | --- | --- |

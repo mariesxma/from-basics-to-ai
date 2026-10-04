@@ -9,7 +9,7 @@ Explore four rooms, collect three treasures, and return to camp before your heal
 Follow the [Python setup](../README.md), then run this from the repository root:
 
 ```bash
-python3 programming-projects/treasure-hunt/python/01-foundations/game.py
+python3 projects/treasure-hunt/python/01-foundations/game.py
 ```
 
 On Windows, use `py` instead of `python3` if needed. Type a command and press Enter.
