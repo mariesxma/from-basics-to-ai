@@ -15,7 +15,7 @@ Start with [Treasure Hunt in Python](projects/treasure-hunt/python/README.md). N
 | [Projects](projects/README.md) | Complete runnable projects, including AI, grouped by name, language, and level | Three Treasure Hunt Python stages available |
 | [Algorithms](algorithms/README.md) | Searching, sorting, graphs, and problem solving | Planned |
 | [Mathematics](mathematics/README.md) | Algebra, probability, statistics, and linear algebra | Planned |
-| [System design](system-design/README.md) | How components, APIs, storage, and services fit together | Planned |
+| [System design](system-design/README.md) | Deployment strategies and future architecture topics | Deployment guide available; labs planned |
 | [AI concepts](ai-concepts/README.md) | Explanations of machine learning, agents, and evaluation | Planned |
 
 ## Project roadmap

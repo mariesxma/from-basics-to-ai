@@ -16,3 +16,7 @@ Future algorithm and AI material can use the same map for route finding and comp
 Each implemented version has its own folder, run instructions, and learning guide. Planned versions are not yet available.
 
 [All projects](../README.md)
+
+## Related system design
+
+[Deployment strategies](../../system-design/deployment-strategies/README.md) uses a proposed web version of this game to explain releases, traffic shifts, and rollback. The guide distinguishes existing local games from the service capabilities still to build.
