@@ -4,7 +4,11 @@ Learn to turn an unclear real-world problem into a useful, data-informed workflo
 
 学习把模糊的业务问题变成明确的问题、可信的数据分析和能实际使用的工作流，再验证它有没有帮助。
 
-**Available now:** learning roadmap and a first discovery exercise. **Planned:** a runnable delivery-operations project with synthetic data, Python, SQL, and a user interface. No dataset or application for that project is included yet.
+**Available now:** learning roadmap, discovery exercise, and an [end-to-end accumulating Delivery Operations case](delivery-operations/README.md) with six synthetic records and seven worked stages. **Planned:** a runnable application with Python, SQL, and a user interface. The case is written learning material, not an implemented service.
+
+## Start the complete case
+
+Follow [Delivery Operations](delivery-operations/README.md) from problem definition through data, decision rules, workflow, adoption, impact, and an optional AI decision. Each stage preserves and extends the previous outputs.
 
 ## The shared scenario
 
@@ -19,12 +23,12 @@ Use this scenario throughout the track. Its starting statement is a hypothesis t
 | Stage | Questions to answer | Skills | Deliverable | Status |
 | --- | --- | --- | --- | --- |
 | 01 — Understand the problem | Who makes which decision? What goes wrong today? | Discovery, stakeholder interviews, scoping, success criteria | One-page problem brief and current workflow | [Exercise available](01-problem-discovery.md) |
-| 02 — Investigate the data | Which records answer the question, and can we trust them? | SQL joins, Python analysis, missing values, duplicates, timestamps, provenance | Data dictionary, quality report, and reproducible analysis | Planned |
-| 03 — Model the operation | How do orders, warehouses, deliveries, people, and actions connect? | Entity relationships, identifiers, business rules, event timelines | Relationship diagram and decision rules | Planned |
-| 04 — Build a useful workflow | What should a dispatcher see and do? | Prioritisation, interface design, validation, collaboration with engineers | Complete local application with a transparent priority rule | Planned |
-| 05 — Help people use it | Can a new user complete a real task? | Demonstrations, training, feedback, adapting explanations to the audience | Demo, quick-start guide, and observed usability exercise | Planned |
-| 06 — Measure and improve | Did decisions or outcomes improve? What else could explain the change? | Baselines, metrics, pilots, tradeoffs, communicating uncertainty | Pilot plan, results report, and recommendation | Planned |
-| 07 — Add AI where justified | Does a model improve on the simple rule? | Evaluation, human review, failure analysis, cost and latency | Optional evaluated AI version with a non-AI fallback | Planned |
+| 02 — Investigate the data | Which records answer the question, and can we trust them? | SQL joins, Python analysis, missing values, duplicates, timestamps, provenance | Data dictionary, quality report, and reproducible analysis | Written case available; implementation/practice planned |
+| 03 — Model the operation | How do orders, warehouses, deliveries, people, and actions connect? | Entity relationships, identifiers, business rules, event timelines | Relationship diagram and decision rules | Written case available; implementation/practice planned |
+| 04 — Build a useful workflow | What should a dispatcher see and do? | Prioritisation, interface design, validation, collaboration with engineers | Complete local application with a transparent priority rule | Written case available; implementation/practice planned |
+| 05 — Help people use it | Can a new user complete a real task? | Demonstrations, training, feedback, adapting explanations to the audience | Demo, quick-start guide, and observed usability exercise | Written case available; implementation/practice planned |
+| 06 — Measure and improve | Did decisions or outcomes improve? What else could explain the change? | Baselines, metrics, pilots, tradeoffs, communicating uncertainty | Pilot plan, results report, and recommendation | Written case available; implementation/practice planned |
+| 07 — Add AI where justified | Does a model improve on the simple rule? | Evaluation, human review, failure analysis, cost and latency | Optional evaluated AI version with a non-AI fallback | Written case available; implementation/practice planned |
 
 Stages are learning milestones. The runnable project will live under `projects/delivery-operations/` when implemented, with complete versions preserved as it grows. This section holds the explanations and exercises.
 

@@ -17,7 +17,7 @@ Start with [Treasure Hunt in Python](projects/treasure-hunt/python/README.md). N
 | [Mathematics](mathematics/README.md) | Algebra, probability, statistics, and linear algebra | Planned |
 | [System design](system-design/README.md) | Deployment strategies and future architecture topics | Deployment guide available; labs planned |
 | [AI concepts](ai-concepts/README.md) | Explanations of machine learning, agents, and evaluation | Planned |
-| [Operational problem solving](operational-problem-solving/README.md) | Understand problems, investigate data, build workflows, and measure impact | Roadmap and discovery exercise available |
+| [Operational problem solving](operational-problem-solving/README.md) | Understand problems, investigate data, build workflows, and measure impact | Seven-stage worked case and discovery exercise available |
 
 ## Project roadmap
 
