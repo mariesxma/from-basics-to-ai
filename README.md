@@ -1,6 +1,6 @@
 # From Basics to AI
 
-An open learning resource covering programming, algorithms, mathematics, system design, and AI through complete projects and clear explanations.
+An open learning resource covering programming, algorithms, mathematics, system design, operational problem solving, and AI through complete projects and clear explanations.
 
 ## Start here
 
@@ -17,6 +17,7 @@ Start with [Treasure Hunt in Python](projects/treasure-hunt/python/README.md). N
 | [Mathematics](mathematics/README.md) | Algebra, probability, statistics, and linear algebra | Planned |
 | [System design](system-design/README.md) | Deployment strategies and future architecture topics | Deployment guide available; labs planned |
 | [AI concepts](ai-concepts/README.md) | Explanations of machine learning, agents, and evaluation | Planned |
+| [Operational problem solving](operational-problem-solving/README.md) | Understand problems, investigate data, build workflows, and measure impact | Roadmap and discovery exercise available |
 
 ## Project roadmap
 
@@ -29,6 +30,7 @@ Start with [Treasure Hunt in Python](projects/treasure-hunt/python/README.md). N
 | Treasure Hunt | Java | Foundations | A standalone Java version of the terminal game | Planned |
 | Treasure Hunt | Web | Foundations | A complete browser game | Planned |
 | Virtual Pet | Python | Foundations | Feed a pet and manage its energy and state | Planned |
+| Delivery Operations | Python and SQL | Operational application | Investigate delays and support dispatch decisions | Planned; [start with discovery](operational-problem-solving/01-problem-discovery.md) |
 
 Only implemented versions have project folders. Planned versions will be added gradually.
 
