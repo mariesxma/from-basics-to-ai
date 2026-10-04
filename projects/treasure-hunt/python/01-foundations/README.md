@@ -26,16 +26,24 @@ forest (1 damage) ---- cave (2 damage)
 camp (safe) ---------- river (1 damage)
 ```
 
-Up is north; right is east. You start at camp with 7 health. Every entry into a hazardous room costs health, including return visits. Each non-camp room has one treasure, which you collect with `take`. Invalid commands and collecting treasure cost no health. You lose at zero health and win by bringing all three treasures back to camp alive.
+Up is north; right is east. Choose your starting health: Explorer (10), Adventurer (7), or Survivor (5). You start at camp. Every entry into a hazardous room costs health, including return visits. Each non-camp room has one treasure, which you collect with `take`. Invalid commands and collecting treasure cost no health. You lose at zero health and win by bringing all three treasures back to camp alive.
 
 Commands: `north`, `south`, `east`, `west`, `take`, `status`, `help`, `quit`. After a win, loss, or quit, choose whether to play again. A replay resets everything.
 
 <details>
 <summary>Need a hint? Show a winning route</summary>
 
-Enter these commands one at a time: `north`, `take`, `east`, `take`, `south`, `take`, `west`. You return to camp with 3 health and all three treasures.
+Enter these commands one at a time: `north`, `take`, `east`, `take`, `south`, `take`, `west`. Choose Adventurer (2) first. You return to camp with 3 health and all three treasures.
 
 </details>
+
+## Expanded foundations
+
+The game now includes difficulty selection, a numbered inventory, recent route history, exploration progress, and random bonus coins. Use `status` to inspect your progress. Coins are a bonus score only: they do not affect health or whether you win. Each treasure gives 1–5 coins once; replay resets the entire game.
+
+游戏新增难度选择、编号背包、最近路线、探索进度和随机金币。输入 `status` 查看；金币只计分，不影响胜负，重玩会重置全部状态。
+
+See [stages 6–9 in the learning map](LEARNING-MAP.md#stages-6-9-expanded-foundations) for the new concepts.
 
 ## Guided build
 
@@ -65,9 +73,9 @@ Start by handling `help` and `quit`. Then use `command in room["exits"]` to chec
 
 ### 4. Add treasure and danger
 
-`treasures.append(location)` adds an item to the list. Setting `room["treasure"] = False` prevents collecting it twice. Every move subtracts the destination's damage from health.
+`treasures.append(location)` adds an item to the list. Setting `room["treasure"] = False` prevents collecting it twice. Every move calls `apply_damage(health, damage)` to subtract damage without letting health fall below zero. `find_treasure()` returns a location label or `None`; a successful collection also awards random coins.
 
-Add these rules and test them: collect the same treasure twice, revisit a dangerous room, and inspect your collection with `status`. The expression `", ".join(treasures)` turns the list of room names into readable text.
+Add these rules and test them: collect the same treasure twice, revisit a dangerous room, and inspect your collection with `status`. `show_status()` uses `enumerate()` to display numbered inventory entries and `" -> ".join(route[-3:])` to display the latest three route stops.
 
 ### 5. Finish the game
 
@@ -82,7 +90,7 @@ The final `if __name__ == "__main__":` starts the game when this file runs direc
 - **Cartographer:** add a fifth room and connect it in both directions. Keep the game winnable.
 - **Healer:** add a potion that restores health once per expedition.
 - **Navigator:** add a `map` command that displays the map.
-- **Game designer:** introduce a difficulty choice that changes starting health.
+- **Game designer:** add a fourth difficulty and keep the menu and validation consistent.
 
 Complete the core game first. Each quest is a small extension to the same working project.
 
@@ -94,7 +102,21 @@ Complete the core game first. Each quest is a small extension to the same workin
 - [ ] Explain how the room dictionary and treasure list differ.
 - [ ] Explain where the loop continues and where the game ends.
 - [ ] Change one game rule and verify its effect.
+- [ ] Enter invalid difficulty choices (text, zero, and 4) and explain how they are rejected.
+- [ ] Use `status` before and after collecting treasure; explain the percentage and numbered inventory.
+- [ ] Revisit a room and explain why the route grows but the unique-room count does not.
+- [ ] Explain function arguments, `None`, list slicing, and why random coins do not change the winning route.
 
 Finishing this checklist completes this foundations project; it does not cover every Python fundamental. Quests are optional; there is no automatic score or unlock system.
 
 [Back to the level path](../README.md)
+
+## Maintainer checks
+
+From the repository root:
+
+```bash
+python3 -m unittest discover -s projects/treasure-hunt/python/01-foundations -p 'test_*.py'
+```
+
+These checks verify the gameplay and new features. Understanding the test tools is not required to finish this level; writing automated tests is covered in the planned intermediate version.
