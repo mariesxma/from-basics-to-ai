@@ -49,3 +49,7 @@ Increase capacity to three and identify the additional order. Then remove the ca
 You can reproduce the ranking by hand and explain a tie, an overdue order, and an unscorable order.
 
 [Case overview](../README.md) · [Previous stage](../02-data-and-quality/README.md) · [Next stage](../04-workflow-and-prototype/README.md)
+
+## Conversation practice
+
+See the [stage-to-conversation map](../conversation-practice/README.md) for dialogue, talking points, and the accumulated meeting outputs for this stage.

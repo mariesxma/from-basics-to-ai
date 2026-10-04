@@ -34,3 +34,7 @@ Change one assumption, such as investigation capacity, and explain which later d
 You can name the user, action, capacity, and unknowns without referring to a proposed tool.
 
 [Case overview](../README.md) · [Next stage](../02-data-and-quality/README.md)
+
+## Conversation practice
+
+See the [stage-to-conversation map](../conversation-practice/README.md) for dialogue, talking points, and the accumulated meeting outputs for this stage.

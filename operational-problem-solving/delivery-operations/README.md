@@ -20,6 +20,10 @@ Work through one scenario from discovery to evaluation. Each stage carries forwa
 | [06 — Measure outcomes without overstating them](06-pilot-and-impact/README.md) | Previous outputs + pilot and metric plan |
 | [07 — Decide whether AI adds value](07-ai-decision-and-handoff/README.md) | Complete case + AI decision and handoff |
 
+## Practise the conversations
+
+[Conversation practice](conversation-practice/README.md) maps all seven stages to fictional meetings, with business-language dialogue, purpose notes, complaint-to-question examples, and next-meeting commitments. Start with the discovery transcript, then follow the case into later meetings.
+
 ## How to study
 
 1. Read the worked example and identify what was carried forward.

@@ -48,3 +48,7 @@ Explain how excluding every late, unfinished order would bias the on-time rate. 
 Have a reproducible metric and an evaluation plan. AI is optional; a useful rules-based workflow is already a valid destination.
 
 [Case overview](../README.md) · [Previous stage](../05-demo-and-adoption/README.md) · [Next stage](../07-ai-decision-and-handoff/README.md)
+
+## Conversation practice
+
+See the [stage-to-conversation map](../conversation-practice/README.md) for dialogue, talking points, and the accumulated meeting outputs for this stage.

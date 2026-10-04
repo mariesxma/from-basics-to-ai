@@ -58,3 +58,7 @@ Sketch what a user sees when A102's exception clears just before they press Assi
 A reader can act on a recommendation, handle a data exception, and understand what is recorded. Do not label the application complete until implementation and checks exist.
 
 [Case overview](../README.md) · [Previous stage](../03-rules-and-priorities/README.md) · [Next stage](../05-demo-and-adoption/README.md)
+
+## Conversation practice
+
+See the [stage-to-conversation map](../conversation-practice/README.md) for dialogue, talking points, and the accumulated meeting outputs for this stage.

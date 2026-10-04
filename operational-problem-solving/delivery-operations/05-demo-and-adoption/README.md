@@ -42,3 +42,7 @@ Give two explanations: one for a dispatcher focused on today's actions, and one 
 Prepare a repeatable task and a feedback log. A completed observation requires an actual participant; until then its status remains planned.
 
 [Case overview](../README.md) · [Previous stage](../04-workflow-and-prototype/README.md) · [Next stage](../06-pilot-and-impact/README.md)
+
+## Conversation practice
+
+See the [stage-to-conversation map](../conversation-practice/README.md) for dialogue, talking points, and the accumulated meeting outputs for this stage.

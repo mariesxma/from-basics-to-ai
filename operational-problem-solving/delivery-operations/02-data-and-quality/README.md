@@ -44,3 +44,7 @@ Calculate each snapshot age. Explain why A103 is current enough under the exerci
 You can reproduce the four-versus-two quality split and explain every exclusion. Missing data remains visible.
 
 [Case overview](../README.md) · [Previous stage](../01-problem-and-decision/README.md) · [Next stage](../03-rules-and-priorities/README.md)
+
+## Conversation practice
+
+See the [stage-to-conversation map](../conversation-practice/README.md) for dialogue, talking points, and the accumulated meeting outputs for this stage.

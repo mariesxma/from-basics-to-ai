@@ -10,6 +10,10 @@ Learn to turn an unclear real-world problem into a useful, data-informed workflo
 
 Follow [Delivery Operations](delivery-operations/README.md) from problem definition through data, decision rules, workflow, adoption, impact, and an optional AI decision. Each stage preserves and extends the previous outputs.
 
+## Practise business conversations
+
+Use the [annotated transcript and talking-point playbook](delivery-operations/conversation-practice/README.md) to practise discovery, evidence review, scope, demonstrations, and next-step commitments. All dialogue is fictional.
+
 ## The shared scenario
 
 A fictional delivery team says: “Too many deliveries arrive late, and we do not know which orders to prioritise.” A dispatcher needs to decide what to investigate and act on before the next delivery window.

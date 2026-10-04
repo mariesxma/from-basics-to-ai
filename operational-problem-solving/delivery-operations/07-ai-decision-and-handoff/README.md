@@ -45,3 +45,7 @@ Write a five-sentence handoff: problem, evidence, proposed action, uncertainty, 
 You can trace a proposed action back to the original problem and evidence, distinguish plans from results, and explain why stopping at a non-AI solution can be appropriate.
 
 [Case overview](../README.md) · [Previous stage](../06-pilot-and-impact/README.md)
+
+## Conversation practice
+
+See the [stage-to-conversation map](../conversation-practice/README.md) for dialogue, talking points, and the accumulated meeting outputs for this stage.
